@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Conversion</title>
+    </head>
+    <body>
+        <h1> File Conversion</h1>
+         <form action="/base64_convert" method="post" enctype="multipart/form-data">
+            choose a TXT into base64 Doc file<br><input type="file" name="txt_files" multiple accept=".txt">
+            
+            <input type="submit" value="Convert" onClick="convertFunction()">
+        </form><br> 
+        
+        
+         
+        <script>
+            function convertFunction(){
+                window.alert("File converted successfully")
+            }
+    </body>
+</html> 
